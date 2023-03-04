@@ -1,0 +1,39 @@
+.button {
+    border:none;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    font-size: 12px;
+}
+
+.primary {
+    background-color: blue;
+}
+
+.primary:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+.secondary {
+    background-color: rgb(65, 65, 65);
+}
+
+.secondary:hover {
+    background: white;
+    color: black
+}
+
+.success{
+    background-color: green;
+}
+
+.danger {
+    background-color: red;
+}
